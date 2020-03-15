@@ -4,6 +4,11 @@ class Calculadora:
         if cadena == "":
             return 0
         elif "," in cadena:
-            return int(cadena[0])+int(cadena[2])
+            numeros = cadena.split(',')
+            suma = 0
+            for num in numeros:
+                suma = suma + int(num)
+            return suma
+#            return int(cadena[0])+int(cadena[2])
         else:
             return int(cadena)
