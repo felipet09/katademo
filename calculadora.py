@@ -1,4 +1,4 @@
 
-class Calcauladora:
-    def sumar(cadena):
-        pass
+class Calculadora:
+    def sumar(self, cadena):
+        return 0
